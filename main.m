@@ -7,8 +7,13 @@
 
 int main(int argc, char *argv[]) {
   @autoreleasepool {
+    // Turn off pinching.
     [[MTTGestureBackEnd sharedInstance] setTwoFingerPinch:0];
+
+    // Sleep is necessary, won't work w/o it.
     usleep(500 * 1000);
+
+    // Turn back on.
     [[MTTGestureBackEnd sharedInstance] setTwoFingerPinch:1];
   }
 }
