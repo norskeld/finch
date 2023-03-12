@@ -1,6 +1,6 @@
 # finch
 
-Pinch-to-zoom fix for macOS.
+Pinch-to-zoom workaround for macOS.
 
 ## Installation
 
