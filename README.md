@@ -2,6 +2,10 @@
 
 Pinch-to-zoom workaround for macOS.
 
+## What it does?
+
+It re-enables (literally, see the code) pinch-to-zoom feature which sometimes stops working (since Monterey/Ventura, not sure when it started exactly).
+
 ## Installation
 
 ### Prerequisites
